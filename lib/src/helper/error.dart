@@ -1,4 +1,4 @@
-import 'package:appwrite/appwrite.dart';
+import 'package:dart_appwrite/dart_appwrite.dart';
 
 String getErrorMessage(error, {String? functionId}) {
   if (error is AppwriteException) {
